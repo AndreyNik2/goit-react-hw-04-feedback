@@ -1,16 +1,13 @@
+import FeedbackCounter from "./FeedbackCounter/FeedbackCounter";
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div style={{
+        height: '100%',
+        padding: '30px',
+        backgroundColor: '#e1e5f5'
+      }}>
+      <FeedbackCounter />
     </div>
   );
 };
